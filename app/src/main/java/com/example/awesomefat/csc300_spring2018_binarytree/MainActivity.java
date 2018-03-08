@@ -17,5 +17,8 @@ public class MainActivity extends AppCompatActivity {
         bt.add(2); //Left
         bt.add(2); //Left Left
         bt.add(1); //Left Left Left
+        bt.add(5);
+        bt.add(6);
+        bt.add(1);
     }
 }

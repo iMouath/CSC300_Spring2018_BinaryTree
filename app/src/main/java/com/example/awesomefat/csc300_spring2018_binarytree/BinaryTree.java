@@ -15,7 +15,14 @@ public class BinaryTree
 
     public void add(int payload)
     {
-        String directions = "";
+        if(this.root == null) {
+            this.root = new Node(payload);
+        }else {
+            this.root.add(payload);
+        }
+
+
+/*        String directions = "";
 
         if(this.root == null)
         {
@@ -47,7 +54,7 @@ public class BinaryTree
                 }
             }
         }
-        System.out.println("***********" + directions);
+        System.out.println("***********" + directions);*/
     }
 
     public void display()
